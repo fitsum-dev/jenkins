@@ -4,6 +4,7 @@ pipeline {
     stage('error') {
       steps {
         echo 'Hello it is me'
+        sh 'Hello $Name'
       }
     }
 
